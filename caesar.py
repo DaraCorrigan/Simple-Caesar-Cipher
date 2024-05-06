@@ -4,4 +4,4 @@ plain_text = "Hello!"
 shift = 7
 
 alphabet = string.ascii_lowercase
-shifted = [shift:] + [shift:]
+shifted = alphabet[shift:] + alphabet[:shift]
